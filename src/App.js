@@ -1,11 +1,13 @@
 import "./App.css";
 import Footer from "./Components/Footer/Footer";
-import Resources from "./Components/Resources/Resources";
+import Header from "./Components/Header/Header";
+import Feed from "./Components/Feed page/Feed";
 
 function App() {
   return (
     <div className="App">
-      <Resources />
+      <Header />
+      <Feed />
       <Footer />
     </div>
   );
