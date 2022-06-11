@@ -1,13 +1,12 @@
 import "./App.css";
 import Footer from "./Components/Footer/Footer";
-import Header from "./Components/Header/Header";
-import Feed from "./Components/Feed page/Feed";
+
+import Profile from "./Components/Profile page/Profile";
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <Feed />
+    <div className="app">
+      <Profile />
       <Footer />
     </div>
   );

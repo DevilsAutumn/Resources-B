@@ -1,0 +1,236 @@
+.profile-page {
+  background: linear-gradient(180deg, #060e18 33.14%, rgba(6, 14, 24, 0) 100%);
+  min-height: 300vh;
+  font-family: "Josefin Sans", sans-serif;
+  filter: drop-shadow(0px 8px 10px rgba(0, 0, 0, 0.1));
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.1);
+  /* padding: 10px; */
+}
+
+.nav-items,
+.nav-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.nav-item > h3 {
+  color: #c2e7f8;
+  margin-right: 10px;
+}
+
+#nav-search {
+  border: none;
+  border-radius: 40px;
+  background-color: white;
+  color: black;
+  height: 40px;
+  width: 19vw;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 18px;
+  outline: none;
+}
+
+.logo-div {
+  background-color: grey;
+  border-radius: 50%;
+  display: block;
+  height: 50px;
+  width: 50px;
+  margin-right: 20px;
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+  font-weight: 800;
+  font-size: 1.8rem;
+  margin-left: 5vw;
+  font-family: "Manrope", sans-serif;
+}
+
+.nav-item {
+  margin-right: 5vw;
+  cursor: pointer;
+}
+
+.nav-item > P {
+  background: #3184ad;
+  padding: 8px 15px;
+  border-radius: 8px;
+  color: white;
+}
+
+#be {
+  color: #3184ad;
+}
+#fikra {
+  color: white;
+}
+.profile-section-main {
+  display: flex;
+
+  flex-direction: column;
+  height: 85vh;
+}
+
+.profile-description {
+  height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.profile-picture {
+  width: 30%;
+  height: 70%;
+  /* border: 2px solid magenta; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.profile-pic-div {
+  border: 15px solid #56bae5;
+  height: 15vw;
+  width: 15vw;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.profile-pic-div > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.profile-role {
+  position: relative;
+  top: -70px;
+  min-width: 10vw;
+  min-height: 49px;
+  background: #d7b333;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-role > img {
+  margin-right: 10px;
+}
+.profile-role > h3 {
+  margin: 0;
+}
+
+#profile-btns {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.profile-picture button {
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  min-width: 30%;
+  cursor: pointer;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.2rem;
+}
+
+#follow-btn {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(0deg, #1bd60b, #1bd60b);
+}
+#message-btn {
+  background: #4a6ff4;
+}
+
+.profile-right-div {
+  height: 100%;
+  width: 40%;
+}
+.about-user {
+  box-sizing: border-box;
+  height: 50%;
+  margin-top: 18%;
+  border-radius: 50px;
+  border: 1px solid #3184ad;
+  color: white;
+  padding: 20px;
+  font-family: "Lexend Deca", sans-serif;
+  background: rgba(217, 217, 217, 0.08);
+  backdrop-filter: blur(150px);
+  overflow-y: auto;
+}
+
+.about-user > p {
+  font-size: 1.4rem;
+  font-weight: 300;
+}
+.about-user > text {
+  color: #c2e7f8;
+}
+.profile-actions {
+  border: 1px solid #56bae5;
+  height: 5vh;
+  width: 60%;
+  margin: auto;
+  border-radius: 50px;
+  background: rgba(217, 217, 217, 0.1);
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.action-btn {
+  height: 80%;
+  /* background-color: #3184ad; */
+  width: 34%;
+  border-radius: 2px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 2px solid #ffffff;
+  color: white;
+}
+.action-btn > img {
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.profile-projects,
+.profile-blogs,
+.profile-clans {
+  /* border: 2px solid white; */
+  color: white;
+  width: 90%;
+  margin: auto;
+  margin-top: 10vh;
+}
+
+.profile-projects div,
+.profile-blogs div,
+.profile-clans div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.clan {
+  width: 330px;
+  height: 330px;
+  background: #d9d9d9;
+  border-radius: 50%;
+}

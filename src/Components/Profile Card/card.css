@@ -1,0 +1,29 @@
+.p-content-card {
+  height: 423px;
+  width: 449px;
+  background: #ffffff;
+  border: 2px solid #000000;
+  border-radius: 100px 24px 24px 24px;
+  color: black;
+  margin: 2vw;
+  padding: 20px;
+  cursor: pointer;
+  overflow-y: auto;
+}
+
+.p-content-card > div {
+  width: 439px;
+  height: 280px;
+  border-radius: 100px 24px 24px 24px;
+  overflow: hidden;
+}
+
+#p-content-image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
+#p-content-more-btn {
+  margin-left: auto;
+}
